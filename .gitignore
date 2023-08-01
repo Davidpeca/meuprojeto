@@ -121,6 +121,7 @@ env.bak/
 venv.bak/
 davi/
 .davi
+/davi
 # Spyder project settings
 .spyderproject
 .spyproject

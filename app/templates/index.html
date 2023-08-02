@@ -1,8 +1,15 @@
-{%extrends 'base.html' %}
+{%extends 'base.html' %}
 
-{% endblock %}
+{% block conteudo %}
 
 <section id="inicio">
-    <h2>Seja bem-vindo ao meu portfólio!</h2>
-    <!-- Conteúdo da seção Home -->
+    <div class="header">
+        <h1>Bem-Vindo ao Nosso Site</h1>
+    </div>
+    <div class="container">
+        <h1>Descubra o Mundo de Possibilidades</h1>
+        <p>Explore nossos produtos incríveis e encontre exatamente o que você precisa.</p>
+        <a class="button" href="#">Ver Produtos</a>
+    </div>
 </section>
+{% endblock %}
